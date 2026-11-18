@@ -1,0 +1,15 @@
+PLAN 6 — LE CRI  (version de face, décision du 2026-09-29)
+
+1. RETOUCHE  (GPT 6 Astra, en édition)
+   Image à éditer : ../3_RESULTATS/image_v1_trois_quarts.png
+   Prompt         : PROMPT_1bis_retouche_de_face.txt
+   -> enregistrer dans ../3_RESULTATS/image_de_face.png
+   Vérifier : de face, épaules carrées, regard juste à côté de l'objectif,
+              décor et lumière inchangés.
+
+2. VIDÉO  (Seedance 2.5)
+   Première image : ../3_RESULTATS/image_de_face.png   (PAS d'image de fin)
+   Prompt         : PROMPT_2_video.txt
+   -> enregistrer dans ../3_RESULTATS/video.mov
+
+(PROMPT_1_image.txt a servi à produire image_v1_trois_quarts.png.)

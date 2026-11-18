@@ -1,0 +1,80 @@
+========================================================
+  PLAN 3 - IMAGE DE FIN (image B)
+  Profil droit + la marque, ETEINTE.
+  Servira de DERNIERE keyframe de la video.
+========================================================
+
+POURQUOI : le tatouage est un ideogramme coreen precis. Un modele video ne
+sait pas le faire apparaitre correctement sur une peau qui se decouvre en
+cours de plan - il inventerait une tache. On le PEINT donc dans l'image de
+fin, puis on interpole de l'image A vers l'image B.
+
+REFERENCES A CHARGER (3, chacune pour un attribut different) :
+  P03B_1_CADRAGE_fin.png       -> composition et angle (profil droit)
+  P03B_2_CONTINUITE_debut_du_meme_plan.png -> le DEBUT DU MEME PLAN, deux
+     secondes plus tot : meme homme, meme rue, meme lumiere, meme arriere-plan
+  P03B_3_TATOUAGE_eteint.jpg   -> la marque : forme et emplacement exacts
+
+Formuler ainsi :
+
+@P03B_1_CADRAGE_fin is the exact framing and camera angle to reproduce.
+@P03B_2_CONTINUITE is the SAME SHOT two seconds earlier - same man, same
+street, same light, same background. This is the strongest constraint:
+nothing may change except his body orientation. Keep his face identical.
+@P03B_3_TATOUAGE shows the exact tattoo: shape, size and position on the
+skin behind his right ear.
+
+Puis le prompt :
+
+Photorealistic cinematic film still: the SAME SHOT as the reference, two
+seconds later. Same character, same street, same light, same background.
+Only his orientation has changed.
+
+Manhattan sidewalk, midday, early April. The same young Korean man - black
+leather biker jacket, black turtleneck, black tactical cargo pants, chunky
+black sneakers, messy black hair - now seen in clean RIGHT PROFILE as he
+walks past the camera from left to right. Waist-up framing.
+
+On the skin just behind his right ear, partly under his hair, there is a
+small dark tattoo. It is the KOREAN HANGUL SYLLABLE  속  - one single Korean
+character, exactly as shown in the tattoo reference image. It is NOT a star,
+NOT an asterisk, NOT a cross, NOT an abstract symbol: it is the Korean
+letter 속, with its three strokes (a consonant, a vowel, a bottom consonant).
+Plain black ink on skin. NOT lit, NOT glowing, NOT red, NOT neon.
+Small and discreet - noticed without being readable.
+
+EXPOSURE AND GRADE - critical for editing:
+Match the exposure, contrast, brightness and colour temperature of the
+continuity reference EXACTLY. These two images are two seconds apart in the
+same shot: they must cut together invisibly. Do not darken the image, do not
+make it cooler or more contrasted than the reference.
+
+Shot on an 85mm lens. Pedestrians pass in front and behind, layered, out of
+focus. He is in shadow, the buildings behind are sunlit. Cool grey, stone
+and pale blue palette.
+
+2.39:1 anamorphic, natural light, no colour grade.
+His face must be IDENTICAL to the reference shot - same actor, no drift.
+
+INTERDIRE : glowing tattoo, red glow, neon, light emission, star tattoo,
+asterisk, abstract symbol, latin letters, mask, different face, different
+actor, combat boots, night, sunset, darker grade, cooler grade, heavy
+contrast, text overlay, watermark, walking to the left, facing the camera.
+
+
+========================================================
+  PUIS LA VIDEO, EN KEYFRAMES
+========================================================
+
+Premiere image  : P03_runway_still_01.png   (trois-quarts face)
+Derniere image  : l'image B validee          (profil droit + marque)
+
+Prompt :
+
+He keeps walking from left to right, turning slowly and naturally from a
+three-quarter view into a clean right profile. Continuous, unhurried motion.
+Pedestrians drift around him.
+Locked tripod: no camera travel, no zoom, no orbit. Only a slight reframe.
+The tattoo behind his right ear stays plain dark ink - it never glows.
+
+SETTINGS : Seedance 2.5, 21:9, 5s, 720p, native audio OFF.

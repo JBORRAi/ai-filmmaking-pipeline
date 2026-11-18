@@ -1,0 +1,15 @@
+PLAN 12 — (après le 11 bis, déjà masqué) IL SE RETOURNE D'UN SEUL MOUVEMENT JUSQU'EN STARTING-BLOCKS
+
+1. IMAGE DE DÉPART — FAIT : ../3_RESULTATS/image_depart.png
+   (Grok, puis foule éditée dans Runway ; masque éteint -> rallumé par la vidéo)
+
+2. IMAGE DE FIN (GPT Image 2 ou Grok, génération avec références, PAS une édition de image_depart)
+   Références : image_depart, 2_kim_visage, 4_masque, 5_yeux_rouges, 6_pose_sprint_led, 7_costume_active
+   Prompt : PROMPT_1c_image_fin_starting_block.txt  -> ../3_RESULTATS/image_fin.png
+
+3. VIDÉO (Seedance 2.5, Keyframes, 21:9, 7 s, 720p, audio natif ON, pas de musique)
+   Première image : image_depart.png · Dernière image : image_fin.png
+   Prompt : PROMPT_video_keyframes.txt  -> ../3_RESULTATS/
+   (Si l'interface accepte aussi des références en keyframes : ajouter 4_masque et 7_costume_active.)
+
+   Plan B sans image de fin : mode Références + PROMPT_video.txt.

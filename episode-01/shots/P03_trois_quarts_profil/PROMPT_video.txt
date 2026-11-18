@@ -1,0 +1,56 @@
+========================================================
+  PLAN 3 - ETAPE B (VIDEO)
+  Le plan installe le vecteur droite PAR LE MOUVEMENT,
+  et plante la marque derriere l'oreille droite.
+========================================================
+
+Generate a video from the still image of the young Korean man walking on the
+Manhattan sidewalk (three-quarter view, crowd around him).
+
+SETTINGS - use exactly these, do not substitute:
+- model: Seedance 2.5
+- aspect ratio: 21:9
+- duration: 5s
+- resolution: 720p
+- native audio: OFF (disabled)
+
+SHOT - the movement is the whole point:
+He starts in a slight three-quarter view. Over the five seconds he keeps
+walking and gradually turns his head and shoulders to his left, so that by
+the end of the clip we see his RIGHT profile clearly. The turn is slow,
+natural and continuous - he is scanning the street, not posing.
+
+His travel is from the LEFT of the frame toward the RIGHT. Pedestrians pass
+in the foreground and behind him, layered, out of focus.
+
+IMPORTANT - the skin behind his right ear:
+As his right profile comes into view, a small dark marking is visible on the
+skin just behind his right ear. It is a plain dark tattoo. It does NOT glow,
+it does NOT emit light, it is NOT red. Ordinary ink on skin, nothing more.
+
+CAMERA:
+Locked tripod. The camera does not travel, does not zoom, does not orbit.
+Only a very slight tilt or reframe to keep him in frame. The turn is
+performed by the actor, never by the camera.
+
+Keep his face, hair and clothing exactly as in the source image throughout.
+No morphing, no identity drift.
+
+DO NOT: glowing tattoo, red light, neon, mask, camera movement, zoom,
+dolly, slow motion, text overlay, watermark, added music, night, sunset.
+
+
+========================================================
+  POURQUOI CE PLAN COMPTE DOUBLE
+========================================================
+
+1. MONTAGE : la rotation installe le vecteur DROITE par le mouvement, a
+   l'interieur du plan. Plus solide qu'une pose deja orientee, et cela
+   evite d'enchainer deux plans frontaux (plan 2 finit de face).
+
+2. RECIT : la marque est PLANTEE ici, eteinte, en etat civil. Le spectateur
+   la voit sans la comprendre. Elle s'allumera au plan 23.
+   -> Elle ne doit surtout PAS briller dans ce plan.
+
+Au 85 mm en plan taille, la marque ne sera pas lisible : normal et voulu.
+Un plant doit etre present, pas lisible. La lisibilite viendra au plan 23.

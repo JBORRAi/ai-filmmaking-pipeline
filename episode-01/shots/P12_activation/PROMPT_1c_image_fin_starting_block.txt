@@ -1,0 +1,31 @@
+References: @image_depart is the scene (same avenue, same crowd, same light, same camera position and
+framing). @2_kim_visage is his face, @4_masque his mask, @5_yeux_rouges his eyes, @7_costume_active
+his fully activated outfit, @6_pose_sprint_led the stance.
+
+Same scene, a few seconds later, but THE CAMERA HAS MOVED: it followed him down and pulled back.
+- The camera is now LOW, about 40 cm above the ground, level (not tilted), and it has slid sideways
+  onto the edge of the SIDEWALK, on the crowd's side: it sees him from a slight THREE-QUARTER angle
+  (about 25 degrees off his front), the avenue receding diagonally behind him toward the left. The
+  road surface fills the lower part of the frame, the vanishing point of the avenue sits near the
+  middle height of the frame.
+- The camera is also a few metres FURTHER BACK than in @image_depart: he is SMALLER in the frame than
+  in @image_depart - his crouched body takes about one third of the frame height, centred slightly
+  left, with a lot of empty asphalt between him and the lens. Wide lens feeling, deep perspective.
+- The crowd is now close on the right, some legs and coats in the out-of-focus foreground at the
+  frame edge; seen from this low angle they look taller, faces above staring at him.
+
+He has turned around and faces the camera side, seen in slight three-quarter view, crouched in a professional sprinter's "set" position,
+like an Olympic 100 m start, in the same spot on the road near the kerb: both hands on the asphalt at
+shoulder width, fingertips spread, arms straight, front knee bent, back leg extended, hips raised
+just above his shoulders, head up, eyes locked just past the lens.
+
+He is fully ACTIVATED: the carbon half-mask on, its red LED lines glowing bright; glowing red irises;
+thin red LED lines lit all along his black leather jacket, his arms, his black cargo pants and his
+black sneakers, casting a faint red glow on the asphalt around his hands and feet.
+
+The crowd on the right sidewalk, the same people, has stepped back a little: shocked, amazed, some
+filming him, one pulling a friend back. Same flat light, same cool grey tones, 2.39:1,
+photorealistic film still.
+
+DO NOT: large figure filling the frame, camera at standing height, high angle, sparks, cracks, fire, aura, running, a different street, different people, a different face,
+unlit mask, text, watermark.

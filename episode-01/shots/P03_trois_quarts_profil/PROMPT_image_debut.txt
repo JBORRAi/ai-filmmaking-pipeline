@@ -1,0 +1,62 @@
+========================================================
+  PLAN 3 - ETAPE A (IMAGE)  -  TEST DE CONTINUITE
+  Le vrai enjeu : est-ce le MEME homme qu'au plan 2 ?
+========================================================
+
+REFERENCES A CHARGER (2, pas plus) :
+  P03_1_CADRAGE.png                   -> composition a reproduire
+  P03_2_CONTINUITE_plan_precedent.png -> le plan precedent : MEME homme,
+                                         meme rue, meme instant, meme lumiere
+
+Formuler ainsi :
+
+@P03_1_CADRAGE is the exact layout, framing and camera angle to reproduce.
+@P03_2_CONTINUITE is the previous shot of the SAME scene, seconds earlier:
+same man, same street, same day, same light. Keep his face identical.
+
+Puis le prompt :
+
+Photorealistic cinematic film still, same sequence and same character as the
+reference shot, a few seconds later.
+
+Manhattan sidewalk, midday, early April. The same young Korean man - black
+leather biker jacket, black turtleneck, black tactical cargo pants, chunky
+black sneakers, messy black hair - walks PAST the camera, crossing the frame.
+
+SCREEN DIRECTION - this is essential and must be obeyed:
+He is travelling from the LEFT side of the frame toward the RIGHT side.
+His body is turned in three-quarter profile, shoulders angled to the right,
+his path clearly heading right. He is NOT walking toward the camera and NOT
+walking to the left. A viewer must instantly read "he is moving right".
+
+Waist-up framing, seen from the side of the street.
+
+Shot on an 85mm lens. Pedestrians pass in front of and behind him, layered
+in depth, slightly out of focus. He is in shadow, the buildings behind are
+sunlit. Cool grey, stone and pale blue palette.
+
+2.39:1 anamorphic, natural light, no colour grade, no lens flare.
+His face must be IDENTICAL to the reference shot - same actor, no drift.
+
+INTERDIRE : different face, different actor, changed hairstyle, combat boots,
+mask, glowing lights, night, warm sunset light, text overlay, watermark,
+frontal walk toward camera, walking to the left, static standing pose.
+
+
+========================================================
+  CE QU'ON VERIFIE
+========================================================
+
+1. Est-ce le MEME visage qu'au plan 2 ?  (valide le 2026-09-08 : 9,5/10)
+2. Va-t-il clairement vers la DROITE du cadre ?
+
+LECON APPRISE : le generateur NE LIT PAS la direction dans l'image de
+controle. Le blocage Blender montrait bien un deplacement vers la droite
+(verifie par calcul), il a quand meme produit un plan frontal.
+=> La direction de deplacement doit etre ECRITE, sur tous les plans.
+
+Si oui -> le pipeline tient sur 35 plans. On passe en production.
+Si non -> il faut une autre methode de continuite avant d'aller plus loin.
+
+Ne PAS generer la video de ce plan tant que l'image n'est pas validee :
+une image coute une fraction d'une video.

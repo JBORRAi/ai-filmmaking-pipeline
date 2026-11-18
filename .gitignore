@@ -1,0 +1,7 @@
+.env
+*.blend
+*.mp4
+*.mov
+*.wav
+*.mp3
+.DS_Store

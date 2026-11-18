@@ -1,0 +1,21 @@
+PLAN 7 — IL SE DÉCALE ET DÉCOUVRE L'HOMME À TERRE (et la moto)
+
+1. IMAGE DE FIN  (GPT 6 Astra)
+   Charger : 2_cadrage_fin.png + 3_continuite_fin_du_plan6.png + 4_kim.jpg
+   Prompt  : PROMPT_1_image_fin.txt
+   -> ../3_RESULTATS/image_fin.png
+   Vérifier : on est derrière son épaule gauche, on ne voit PAS son visage,
+              l'homme à terre au loin près de la bordure, UNE moto sur la chaussée.
+
+2. IMAGE DE DÉBUT  (GPT 6 Astra)
+   Charger : 1_cadrage_debut.png + ../3_RESULTATS/image_fin.png (renommée RESULTAT_image_fin)
+   Prompt  : PROMPT_2_image_debut.txt
+   -> ../3_RESULTATS/image_debut.png
+   Vérifier : vue BOUCHÉE par des dos, pas d'homme à terre visible, pas de moto.
+
+3. VIDÉO  (Seedance 2.5, keyframes)
+   Première image : image_debut.png   ·   Dernière image : image_fin.png
+   Prompt : PROMPT_3_video.txt
+   Ici deux keyframes conviennent : la foule regarde, elle est presque immobile.
+
+Référence du mouvement : ../1_BLENDER/mouvement.mp4
