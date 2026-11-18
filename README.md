@@ -7,6 +7,11 @@ Episode 1 is 1 min 50, produced in 4 days for less than €150 of generation.
 The film itself is a proof of concept. **The real subject is the method**: how to turn generative models,
 which drift, hallucinate and ignore instructions, into a predictable and reproducible production.
 
+> **Why this repository is public.** I build learning and production systems with AI, and I believe a method is
+> only worth something if others can reuse it. This repo shows how I work: I build the pipeline myself, I turn every
+> failure into a documented rule, I track costs from day one, and I write it up so a team can learn it.
+> It is the same approach I applied at scale to content production and AI adoption in my professional work.
+
 ![Hero](images/01_HERO_kim_masked.jpg)
 
 ---
